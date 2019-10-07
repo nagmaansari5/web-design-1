@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.entrytitle
+{
+background-color:LightGrey;
+border-radius: 10px;
+font-family: 'calibri';
+ font-weight: 700;
+ font-size: 34px;
+ 
+}
+.menu
+{
+background-color: LightGrey;
+border-radius: 10px;
+font-family: 'calibri';
+font-weight: 700;
+ font-size: 24px;
+}
+</style>
+</head>
+<h1><img src="C:\Users\anjub\OneDrive\Desktop\111.jpg"></h1>
+<body style="background-color:white;">
+<h1 style="align-content: center;"><a href= "https://www.w3schools.com/html/default.asp">Start Learning with us</a></h1>
+<hr>
+<table class="menu";>
+<tr style="height:50px";>
+<th style="width:400px";><a href= "xyz" class="entrytitle";>THE CRAZY TOURIST</a></th>
+    <th><a href= "xyz">Menu</a></th>
+    <th><a href= "xyz">About/Contact</a></th>
+    <th><a href= "xyz">Privacy Policy</a></th>
+    <th><a href= "xyz"><img src="C:\Users\anjub\OneDrive\Desktop\Web Designing\5th assignment\search.png" alt=""></a></th>
+    <th><a href= "contactus.html">Contact us</a></th>
+  </tr>
+ </table>
+
+    
+<a href="2.html">This is a link to page 2</a>
+</body>
+</html>
