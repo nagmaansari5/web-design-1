@@ -13,9 +13,11 @@
 {
 height:50px;
 width:100%;
-background-color:rgb(60, 60, 60);
 font-family: 'calibri';
-border-radius: 10px;
+position: relative;
+float: left;
+z-index: 99;
+background: #2b3338;
 }
 .menur
 {
@@ -23,12 +25,36 @@ font-weight: 700;
  font-size: 24px;
  color:rgb(240, 240, 240);
 }
+.body
+{
+	font: 14px/26px 'Source Sans Pro', sans-serif;
+    color: #444;
+    background-color: #EBEBEB;
+	height: 100%;
+	width: 100%;
+}
+.ahover
+{
+background-color: #ff036e;
+    color: #fff;
+}
+.sidebar
+{
+float: left;
+    width: 48%!important;
+    margin-right: 4%!important;
+    margin-left: 0;
+    margin-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+    line-height: 23px;
+}
 </style>
 </head>
-<body style="background-color:white";>
 <table class="menu";>
 <tr>
-<th class="entrytitle";>THE CRAZY TOURIST</a></th>
+<th class="entrytitle";>THE CRAZY TOURIST</th>
     <th class="menur";><a href= "xyz">Home</a></th>
     <th class="menur";><a href= "xyz">About/Contact</a></th>
     <th class="menur";><a href= "xyz">Privacy Policy</a></th>
@@ -39,6 +65,29 @@ font-weight: 700;
 	</a></th>
   </tr>
  </table>
+ <body class="body";> 
+ <article>
+ <a href="https://www.thecrazytourist.com/15-best-things-to-do-in-ridgefield-ct/" title="15 Best Things to Do in Ridgefield (CT)">
+ <img width="370" height="210" src="Ridgefield-Historical-Society-370x210.jpg" alt="Ridgefield Historical Society" title="">
+<header>
+<a href="https://www.thecrazytourist.com/15-best-things-to-do-in-ridgefield-ct/" title="15 Best Things to Do in Ridgefield (CT)" data-wpel-link="internal">15 Best Things to Do in Ridgefield (CT)</a></h2>
+ </header>
+</article>
+<article>
+<a href="https://www.thecrazytourist.com/15-best-things-to-do-in-cooper-city-fl/" title="15 Best Things to Do in Cooper City (FL)">
+<img width="370" height="210" src="ccimage-6729104121_dd36804c0c_b-370x210.jpg" alt="Brian Piccolo Park" title="" />
+</a>
+<header>
+<h2><a href="https://www.thecrazytourist.com/15-best-things-to-do-in-cooper-city-fl/" title="15 Best Things to Do in Cooper City (FL)">15 Best Things to Do in Cooper City (FL)</a></h2>
+</header>
+</article>
+<aside id="sidebar" class="sidebar">
+<div>
+	<h3><span>Social Followers</span></h3>
+	<ul><li class="essbfc-facebook"><a href="https://www.facebook.com/The-Crazy-Tourist-1412084932431763" target="_blank"><div><i></i><span>242k</span><span>Fans</span></div></a></li><li><a href="https://www.pinterest.com/thecrazytourist" target="_blank">
+		<span>47.4k</span><span>Followers</span></a></li><li><a href="https://instagram.com/thecrazytourist_official" target="_blank"><span>3.2k</span><span>Followers</span></a></li></ul>
+		</div>
+	</aside>
 <a href="2.html">This is a link to page 2</a>
 </body>
 </html>
