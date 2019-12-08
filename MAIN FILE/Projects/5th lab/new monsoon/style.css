@@ -1,0 +1,46 @@
+.headerorange
+{
+	border: none;
+	background: #ef9232  center top no-repeat;
+	overflow: hidden;
+	 color: #fff; 
+	 margin-bottom: 0;
+	 float: right;
+	 width: 100%;
+	  height: 10%;
+	  background-color: #fff;
+
+}
+.containers 
+{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.imglogo
+{
+	background-position: center;
+	border: none;
+    height: auto;
+    max-width: 90%;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+.backgrnd
+{
+text-align: center;
+	background: #f1e8cf;
+	border: none;
+}
+.slideshow {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.body {
+    color: #be232c;
+    background: #f1e8cf;
+}

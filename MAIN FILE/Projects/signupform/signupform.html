@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<link rel='stylesheet' href='style.css' type='text/css' />
+<script src="javascript.js"></script>
+<header><img src="head.png" class="center" style="width:700px;height:65px;"></header>
+  <h1>
+    <center><em>SignUp Form</em></center>
+  </h1>
+  <h4>All feilds are required</h4>
+</head>
+<body>
+<fieldset>
+<form name='SignUp' onSubmit="return validationcheck();">
+<ul>
+<li><label for="userid"><b>Username:</b></label></li>
+<li><input type="text" name="userid" size="12" /></li>
+<li><label for="passw"><b>Create a Password:</b></label></li>
+<li><input type="password" name="passw" size="12" /></li>
+<li><label for="username"><b>Name:</b></label></li>
+<li><input type="text" name="username" size="50" /></li>
+<li><label for="add"><b>Address:</b></label></li>
+<li><input type="text" name="add" size="50" /></li>
+<li><label for="cntry"><b>Country:</b></label></li>
+<li><select name="cntry">
+<option selected="" value="Default"><b>(Please select a country)</b></option>
+<option value="AD">India</option>
+<option value="AF">Australia</option>
+<option value="AD">Dubai</option>
+<option value="AL">Canada</option>
+<option value="DZ">India</option>
+<option value="AS">Russia</option>
+<option value="AD">USA</option>
+</select></li>
+<li><label for="zip"><b>Postal Code:</b></label></li>
+<li><input type="text" name="zip" /></li>
+<li><label for="mail"><b>Email:</b></label></li>
+<li><input type="text" name="mail" size="50" /></li>
+<li><label id="gender"><b>Gender:</b></label></li>
+<li><input type="radio" name="msex" value="Male" /><span>Male</span></li>
+<li><input type="radio" name="fsex" value="Female" /><span>Female</span></li>
+<li><label><b>Language</b>:</label></li>
+<li><input type="checkbox" name="en" value="en" checked /><span>English</span></li>
+<li><input type="checkbox" name="nonen" value="noen" /><span>Non English</span></li>
+<li><input type="checkbox" name="fr" value="French" /><span>French</span></li><br>
+<li><input class="center" type="submit" name="submit" value="Submit" /></li>
+</ul>
+</form>
+</fieldset>
+</body>
+</html>

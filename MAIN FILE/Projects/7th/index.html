@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>        
+    </head>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <body> 
+      <h1><b>This is my lab 7 assignment</b></h1>
+                <table id="table">
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Salary</th>
+                    </tr>
+                    <tr>
+                        <td>Alfred Wattman</td>
+                        <td>wattsmanalfred2121@uk.com</td>
+                        <td>+18073258467</td>
+                        <td>4500</td>
+                    </tr>
+                    <tr>
+                        <td>Ernst Handel</td>
+                        <td>handelernst@eu.com</td>
+                        <td>+18079904067</td>
+                        <td>$4700</td>
+                    </tr>
+                    <tr>
+                        <td>Roland Mendel</td>
+                        <td>mendelrlnd@on.ca</td>
+                        <td>+918660561831</td>
+                        <td>$5200</td>
+                    </tr>
+                    <tr>
+                        <td>Yoshi Tanmay</td>
+                        <td>yoshitan21@uk.com</td>
+                        <td>+441253738542</td>
+                        <td>$4900</td>
+                    </tr>
+                    <tr>
+                        <td>Francisco Chang</td>
+                        <td>mailto:changfrans@gmail.com</td>
+                        <td>+18074876284</td>
+                        <td>$5600</td>
+                    </tr>
+                </table><br><br>
+                Name :  <input type="text" name="name" id="name"> &nbsp &nbsp 
+                Email :  <input type="text" name="email" id="email">&nbsp &nbsp 
+                Phone :  <input type="number" name="phone" id="phone">&nbsp &nbsp 
+                Salary :  <input type="number" name="salary" id="salary">
+               
+               <button style="text-align: center;" onclick="addHtmlTableRow();">  ADD  </button>
+        <script>
+            var rIndex,
+                table = document.getElementById("table");
+            function addHtmlTableRow()
+            {
+                var newRow = table.insertRow(table.length),
+                    cell1 = newRow.insertCell(0),
+                    cell2 = newRow.insertCell(1),
+                    cell3 = newRow.insertCell(2),
+                    cell4 = newRow.insertCell(3),
+                    name = document.getElementById("name").value,
+                    email = document.getElementById("email").value,
+                    phone = document.getElementById("phone").value;
+                     salary = document.getElementById("salary").value;
+            
+                cell1.innerHTML = name;
+                cell2.innerHTML = email;
+                cell3.innerHTML = phone;
+                cell4.innerHTML = salary;
+                selectedRowToInput();
+            }
+        </script>
+    </body>
+</html>

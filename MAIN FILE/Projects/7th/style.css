@@ -1,0 +1,39 @@
+table 
+{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: groove;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: hsla(9, 100%, 64%, 0.6);
+}
+tr:nth-child(odd) {
+  background-color: hsla(9, 100%, 64%, 0.2);
+}
+button
+{
+background-color: hsl(0, 0%, 71%);
+margin-left:auto;
+margin-right:auto;
+display:block;
+margin-top:2%;
+margin-bottom:0%;
+width: 70px;
+height: 30px;
+}
+body
+{
+	background-color: rgba(255, 99, 71, 0.1);
+}
+h1
+{
+	text-align: center;
+}

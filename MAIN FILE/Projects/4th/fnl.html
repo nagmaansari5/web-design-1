@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <link rel = "stylesheet"
+   type = "text/css"
+   href = "123.css" />
+<style>
+.center 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding:0;
+}
+.form-label-left
+	{
+        width:150px;
+    }
+    .form-line{
+        padding-top:12px;
+        padding-bottom:12px;
+    }
+    .form-label-right{
+        width:150px;
+    }
+    .font
+    {
+        margin:0px auto;
+        padding-top:20px;
+        width:700px;
+        color:#3e4e1a;
+        font-family:'Arial';
+        font-size:14px;
+    }
+	.left
+	{
+	position: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+	}
+	.rest
+	{
+	background-color: #ccffff;
+	width: 700px;
+        height: 100%;
+	}
+</style>
+</head>
+<h1><img src="head.png" class="center" style="width:700px;height:65px;"></h1>
+<body class="font";>
+<main>
+<form action="actionpage.html" method="post" target="_blank">
+  <fieldset class="center" style="width:700px; height:100%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+<h1><img src="lefthead.png" class="left" style="width100%; height:75%";></h1>
+<h2 class="rest";>
+<legend style="color:#660000" class="center";><strong>Yaeeee!!! Now Say Yes to Hiking</strong></legend><br>
+	<div class="experiment"></div>
+    <strong>&nbsp &nbspFirst name:</strong>&nbsp &nbsp
+    <input type="text" name="firstname" value="">
+    <br>
+   <strong>&nbsp &nbspLast name:</strong>&nbsp &nbsp  
+    <input type="text" name="lastname" value="">
+    <br><br>
+<strong>&nbsp &nbspGender:</strong>&nbsp &nbsp
+  <input type="radio" name="gender" value="male" checked> Male<td>
+  <input type="radio" name="gender" value="female"> Female<td>
+  <input type="radio" name="gender" value="other"> Other<br><br>
+<strong>&nbsp &nbspFood Prefrences:</strong>&nbsp &nbsp
+  <select name="Food" size="3">
+    <option value="Vegetarian">Vegetarian</option>
+    <option value="Vegan">Vegan</option>
+    <option value="Eggitarian">Eggitarian</option>
+    <option value="Non-Vegetarian(but no beef/pork)">Non-Vegetarian(but no beef/pork)</option>
+<option value="Non-Vegetarian">Non-Vegetarian</option>
+  </select>
+  <br><br>
+<p></p>
+<strong>&nbsp &nbspSpecial Requests:</strong>&nbsp &nbsp
+  <textarea name="message"  placeholder="Any Special Preferences beside this?" style="width:400px; height:50px;"></textarea>
+  <br><br>
+<strong>&nbsp &nbspSelect Age Group:</strong>&nbsp &nbsp
+  <select Age Category="Age">
+    <option value="Kids(3-8)">Kids(3-8)</option>
+    <option value="Kids(9-12)">Kids(9-12)</option>
+    <option value="Teenagers" selected>Teenagers</option>
+    <option value="Adults(20-40)">Adults(20-40)</option>
+<option value="Middle Age(41-60)">Middle Age(41-60)</option>
+<option value="Old Age(61-80)">Old Age(61-80)</option>
+  </select><br><br>
+  <strong>&nbsp &nbsp Address:</strong>&nbsp &nbsp
+    <input type="text" placeholder="Apt., Street and Area" name="Address" style="width:200px; height:25px;" value="">
+    
+  <br><br><strong>&nbsp &nbspSelect Your Province/Territory:</strong>&nbsp &nbsp
+  <input name="province" list="provinces">
+  <datalist id="provinces">
+    <option value="Alberta"></option>
+    <option value="Ontario"></option>
+    <option value="British Columbia"></option>
+    <option value="Manitoba"></option>
+    <option value="New Brunswick"></option>
+<option value="Newfoundland and Labrador"></option>
+<option value="Nova Scotia"></option>
+<option value="Prince Edward Island"></option>
+<option value="Quebec"></option>
+<option value="Saskatchewan"></option>
+<option value="Northwest Territories"></option>
+<option value="Nunavut"></option>
+<option value="Yukon">
+</option></datalist>
+<br><br>
+&nbsp &nbsp D.O.B.:&nbsp &nbsp
+  <input type="date" name="bday">
+</form>
+<form action="actionpage.html" method="get" target="_blank">            <strong>&nbsp &nbspFood Prefrences:</strong>&nbsp &nbsp
+  <select name="Food" size="3">
+    <option value="Vegetarian">Vegetarian</option>
+    <option value="Vegan">Vegan</option>
+    <option value="Eggitarian">Eggitarian</option>
+    <option value="Non-Vegetarian(but no beef/pork)">Non-Vegetarian(but no beef/pork)</option>
+<option value="Non-Vegetarian">Non-Vegetarian</option>
+  </select>
+  <br><br>
+<p></p>
+<strong>&nbsp &nbspSpecial Requests:</strong>&nbsp &nbsp
+  <textarea name="message"  placeholder="Any Special Preferences beside this?" style="width:400px; height:50px;"></textarea>
+  <br><br>
+<li class="form-line" id="id_5" data-type="control_matrix" style="list-style: none; margin-left: 20px">
+        <label class="form-label form-label-top" id="label_5" for="input_5"> Overall, how satisfied were you with our service </label>
+        <div class="form-input-wide" id="cid_5">
+          <table class="form-matrix-table" cellspacing="0" cellpadding="4" summary="" data-component="matrix">
+            <tbody>
+              <tr>
+                <th style="border:none">
+                  &nbsp;
+                </th>
+                <th class="form-matrix-column-headers form-matrix-column_0" scope="col">
+                  <label id="label_5_col_0"> Very Unsatisfied </label>
+                </th>
+                <th class="form-matrix-column-headers form-matrix-column_1" scope="col">
+                  <label id="label_5_col_1"> Unsatisfied </label>
+                </th>
+                <th class="form-matrix-column-headers form-matrix-column_2" scope="col">
+                  <label id="label_5_col_2"> Neutral </label>
+                </th>
+                <th class="form-matrix-column-headers form-matrix-column_3" scope="col">
+                  <label id="label_5_col_3"> Satisfied </label>
+                </th>
+                <th class="form-matrix-column-headers form-matrix-column_4" scope="col">
+                  <label id="label_5_col_4"> Very Satisfied </label>
+                </th>
+              </tr>
+              <tr>
+                <th class="form-matrix-row-headers" style="text-align:left" scope="row">
+                  <label id="label_5_row_0"> Overall satisfaction </label>
+                </th>
+                <td class="form-matrix-values" style="text-align:center">
+                  <input name="q5_Overall, how satisfied were you with this training?[0]" class="form-radio" id="input_5_0_0" aria-labelledby="label_5 label_5_row_0 label_5_col_0" type="radio" value="Very Unsatisfied">
+                </td>
+                <td class="form-matrix-values" style="text-align:center">
+                  <input name="q5_Overall, how satisfied were you with this training?[0]" class="form-radio" id="input_5_0_1" aria-labelledby="label_5 label_5_row_0 label_5_col_1" type="radio" value="Unsatisfied">
+                </td>
+                <td class="form-matrix-values" style="text-align:center">
+                  <input name="q5_Overall, how satisfied were you with this training?[0]" class="form-radio" id="input_5_0_2" aria-labelledby="label_5 label_5_row_0 label_5_col_2" type="radio" value="Neutral">
+                </td>
+                <td class="form-matrix-values" style="text-align:center">
+                  <input name="q5_Overall, how satisfied were you with this training?[0]" class="form-radio" id="input_5_0_3" aria-labelledby="label_5 label_5_row_0 label_5_col_3" type="radio" value="Satisfied">
+                </td>
+                <td class="form-matrix-values" style="text-align:center">
+                  <input name="q5_Overall, how satisfied were you with this training?[0]" class="form-radio" id="input_5_0_4" aria-labelledby="label_5 label_5_row_0 label_5_col_4" type="radio" value="Very Satisfied">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </li>
+  <input type="submit" class="center" style="width:90px; height:20px;" value="Submit"><br>
+    <input type="reset" class="center" style="width:90px; height:20px;" value="Reset">
+	<br><button type="button" class="center" onclick="alert('Should I share sensitive personal data while using the service? We ask that you not send us and that you do not disclose any sensitive personal data on or through the services or otherwise to us. If you send or disclose any sensitive personal data to us when you submit user generated content to the services, you consent to our processing and use of such sensitive personal data in accordance with this policy. If you do not consent to our processing and use of such sensitive personal data, you must not submit such content.
+	By pressing OK!! you will agree to the terms.')">
+Privacy Policy</button>
+</div>
+</h2>
+  </fieldset>
+  </form>
+      </main>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
